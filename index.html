@@ -7,7 +7,7 @@
                         name="viewport"
                         content="width=device-width, initial-scale=1.0"
                 />
-                <title>Movie Lookup Site</title>
+                <title>My Movie Lookup Site</title>
                 <!----------font awesome icons cdn  -->
 
                 <link
@@ -21,6 +21,11 @@
         <body>
                 <input type="text" name="apikey" id="apikey" class="form-control" placeholder="apikey">
                 <div class="wrapper">
+                  <div class="form">
+                    <form id="search-form">
+                      
+                    </form>
+                  </div>
                         <!---logo-->
                         <div class="logo">
                                 <div class="container">
@@ -40,6 +45,8 @@
                                                 onkeyup = "findMovies()"
                                                 onclick = "findMovies()"/>
                                         <div class="search-list" id="search-list">
+
+                                          
                                              
                                           <!---list here-->
                                           <div class="search-list-item">
@@ -90,5 +97,6 @@
                 
                 <!--------movie app js ------>
                 <script src="main.js"></script>
+
         </body>
 </html>
