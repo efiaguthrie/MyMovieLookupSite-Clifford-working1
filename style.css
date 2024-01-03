@@ -5,12 +5,18 @@
         --dark-color: #171717;
         --light-dark-color: #292929;
         --yellow-color: #d41111;
+
+        --body-color: #1e1e2a;
+        --container-color: #2d2e37;
+        --text-color: #fcfeff;
 }
 * {
         padding: 0;
         margin: 0;
         -webkit-box-sizing: border-box;
         box-sizing: border-box;
+        scroll-behavior: smooth;
+        scroll-padding-top: 2rem;
 }
 body {
         font-family: "Inter", sans-serif;
